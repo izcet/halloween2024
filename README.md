@@ -1,5 +1,5 @@
 # Installation Wizard Costume
-![person in starry wizard costume with face blurred holding a cd](assets-gh/face-blurred.png)
+![person in starry wizard costume with face blurred holding a cd](assets-gh/face-blurred.jpeg)
 
 This was my costume for Halloween in 2024. In addition to the aesthetic punnery, I also had numerous technical bits, such as:
 - linux installation and live disk USBs on my hat
@@ -29,7 +29,7 @@ This repo documents the tools I used and scripts I wrote as part of this project
 - Mansi S
 
 ### Expected Vs Actual
-I originally wanted to create a multiboot USB so that all the drives could have the same image, and at runtime select which version of linux to install. I used [aguslr/multibootusb](https://github.com/aguslr/multibootusb) as reference, but opted to rewrite the `grub.cfg` myself rather than "run this shell script as root". I ultimately didn't have enough time to put that part of the project together, running up to the wire (5am!) Halloween morning burning the last of the USBs. I've since shelved that project, and may finish it independently at another time. I've saved the relevant progress here. 
+I originally wanted to create a multiboot USB so that all the drives could have the same image, and at runtime select which version of linux to install. I used [aguslr/multibootusb](https://github.com/aguslr/multibootusb) as reference, but opted to rewrite the `grub.cfg` myself rather than "run this shell script as root". I ultimately didn't have enough time to put that part of the project together, running up to the wire (5am Halloween morning!) burning the last of the USBs. I've since shelved that project, and may finish it independently at another time. I've saved the relevant progress here. 
 
 What I opted to instead was to have different single distros per drive, and color-code them. I also overwrote the ISO partition tables to add an extra partition after the installer to use the remaining space on the USB. On the bonus partition I included this repo at [the state it was Oct 30th](https://github.com/izcet/halloween2024/tree/8a9a51566d996483aff84088973a27d337548e61), offline archives of [PrivacyGuides Recommendations](https://www.privacyguides.org/en/tools/), and the other different Linux or BSD images that didn't get burned. I also included an easter egg somewhere on the disk outside the partitions in empty space, if anyone got one of these and wants a small forensics challenge. I also distributed the checksums of the ISOs that were burned, however that was moot because the extra partition changes the actual bytes written. oops.
 
