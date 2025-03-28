@@ -3,7 +3,7 @@
 
 This was my costume for Halloween in 2024. In addition to the aesthetic punnery, I also had numerous technical bits, such as:
 - linux installation and live disk USBs on my hat
-- analog corrupted DVD media
+- digitally corrupted DVDs
 - mildly to moderately cursed mix CDs
 - "is this your card?" magic trick decks and microSD gags
 
