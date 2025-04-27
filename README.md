@@ -14,7 +14,7 @@ This repo documents the tools I used and scripts I wrote as part of this project
 ### Special Thanks
 ##### Costume assembly:
 - Amanda H
-- Emily L
+- Lewis
 - Ngina K 
 - Victoria L
 - and many more at NYC Resistor
